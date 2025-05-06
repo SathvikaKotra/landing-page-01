@@ -1,11 +1,86 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quack Eats - Dessert Store in Hyderabad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>saath niggagagagga</h1>
+<body class="bg-gray-50 text-gray-800">
+    <header class="bg-yellow-400 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-gray-900">Quack Eats</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:text-gray-700">About</a></li>
+                    <li><a href="#menu" class="hover:text-gray-700">Menu</a></li>
+                    <li><a href="#contact" class="hover:text-gray-700">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-yellow-100 py-16 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-4">Sweet Treats in Every Bite</h2>
+            <p class="text-lg mb-6">Discover the finest desserts in Hyderabad at Quack Eats.</p>
+            <button class="bg-yellow-500 text-white py-2 px-4 rounded shadow hover:bg-yellow-600">Explore Menu</button>
+        </div>
+    </section>
+
+    <section id="about" class="py-16">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <div>
+                <h3 class="text-3xl font-bold mb-4">About Us</h3>
+                <p class="text-lg">At Quack Eats, we believe in delivering happiness through desserts. From classic treats to innovative creations, our menu is designed to satisfy your sweet tooth.</p>
+            </div>
+            <img src="./assets/desserts.jpg" alt="Dessert Image" class="rounded-lg shadow-md">
+        </div>
+    </section>
+
+    <section id="menu" class="bg-yellow-50 py-16">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-8">Our Menu</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="./assets/chocolava.jpg" alt="Dessert 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-bold text-lg">Chocolate Lava Cake</h4>
+                        <p class="text-gray-600">Rich and gooey chocolate perfection.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="./assets/cheesecake.jpg" alt="Dessert 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-bold text-lg">Strawberry Cheesecake</h4>
+                        <p class="text-gray-600">Creamy cheesecake with a fruity twist.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="./assets/Tiramisu.jpg" alt="Dessert 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-bold text-lg">Classic Tiramisu</h4>
+                        <p class="text-gray-600">An Italian favorite with a hint of coffee.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-yellow-100">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">Get in Touch</h3>
+            <p class="text-lg mb-6">We’d love to hear from you! Visit us in Hyderabad or drop us a message.</p>
+            <button class="bg-yellow-500 text-white py-2 px-4 rounded shadow hover:bg-yellow-600">Contact Us</button>
+        </div>
+    </section>
+
+    <footer class="bg-yellow-400 py-4">
+        <div class="container mx-auto text-center">
+            <p class="text-sm text-gray-900">&copy; 2025 Quack Eats. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
